@@ -1,0 +1,9 @@
+name,age,school,course
+David,21,UG,Computer Science
+Annobil,22,UG,Agricultural Engineering
+Dablah,21,Tech,Petroleum Engineering
+Sackey,21,AIT,Bussiness
+Fiah,21,Gimpa,Computer Science
+Ojo,21,Gimpa,Computer Science
+Kumi,24,Asheshi,Computer Science
+Ansah,23,Ukraine-Tech,Information Technology
