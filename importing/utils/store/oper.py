@@ -1,3 +1,5 @@
+from ..pear import NotFound
+
 def read_file(file):
     with open(file,"r") as file_var:
         return file_var.read().split("\n")
