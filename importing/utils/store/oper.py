@@ -5,3 +5,5 @@ def read_file(file):
 def save_content(file,content):
     with open(file,"w") as file_var:
         file_var.write(content)
+
+print(__name__)

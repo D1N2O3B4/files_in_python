@@ -1,3 +1,5 @@
+from store.oper import save_content,read_file
+
 def peep(iterable,finder,expected):
     for i in iterable:
         if finder(i) == expected:
@@ -7,3 +9,5 @@ def peep(iterable,finder,expected):
 
 class NotFound(Exception):
     pass
+
+print(__name__)
