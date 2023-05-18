@@ -1,4 +1,4 @@
-from store.oper import save_content,read_file
+from .store.oper import save_content,read_file
 
 def peep(iterable,finder,expected):
     for i in iterable:
