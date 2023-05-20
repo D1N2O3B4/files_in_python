@@ -12,4 +12,4 @@ class NotFound(Exception):
 
 print(__name__)
 if __name__ == "__main__":
-    print(peep(["Sandy","Spongebob","Patrick"],lambda x: x, "Patrick"))
+    print(peep(["Sandy","Sponge","Patrick"],lambda x: x, "Patrick"))
