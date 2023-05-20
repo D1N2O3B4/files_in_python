@@ -10,4 +10,4 @@ for i in read_content:
     age = i[1]
     school = i[2]
     course = i[3]
-    print(f"{name} is a {age} year old student from {school} studying {course}")
+    print(f"{name} is a {age} year old from {school} studying {course}")
