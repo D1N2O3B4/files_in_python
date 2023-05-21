@@ -20,7 +20,7 @@ def choice():
             title = input("Input book title: ")
             author = input("Input book author: ")
             add_book(title,author)
-            
+        
         elif user_input == "d":
             title = input("Input book title: ")
             remove_book(title)
@@ -31,6 +31,6 @@ def choice():
            
         elif user_input == "l":
             list_all()
-            
-
+        user_input = input(USER_CHOICE)  
+        
 choice()
