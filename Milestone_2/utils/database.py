@@ -18,7 +18,7 @@ def remove_book(title):
 
 def list_all():
     for i in books:
-        return("Book title is",i["title"],"written by",i["author"],". User read book ?:",i["read"])
+        print("Book title is",i["title"],"written by",i["author"],". User read book ?:",i["read"])
     return None
 # def find_book(title):
 #     for i in range(len(books)):
