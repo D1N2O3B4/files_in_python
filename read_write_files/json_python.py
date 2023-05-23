@@ -11,7 +11,7 @@ books = [
     {"title":"Adventures of Mubalak","author":"Soro Jung"}
 ]
 
-create_file = open("read_write_files/json_books.txt","w")
+create_file = open("read_write_files/json_books.txt","r+")
 json.dump(books,create_file)
 create_file.close()
 
