@@ -20,7 +20,7 @@ def list_all():
         all_books = [(line.strip()).split(",") for line in file.readlines()]
     
     book = [
-        {"title"}
+        {"title":all_books[0],"author":all_books[1],"read":all_books[2]}
     ]
 
 def json_func():
