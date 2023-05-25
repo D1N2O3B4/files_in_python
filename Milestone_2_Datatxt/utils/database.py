@@ -19,7 +19,7 @@ def list_all():
     with open("data.txt","r") as file:
         all_books = [(line.strip()).split(",") for line in file.readlines()]
     
-    books = [{"title":book[0],"author":book[1],"read":book[2]} for book in all_books]
+    return [{"title":book[0],"author":book[1],"read":book[2]} for book in all_books]
 
 def json_func():
     pass
