@@ -5,13 +5,14 @@ file_content = json.load(file)
 file.close()
 
 
-def add_book():
+def add_book(title,author):
+    with open("data.txt","a") as file:
+        file.write(f"Book Title:{title},Author{author},Read{0}")
+
+def read_book(title):
     pass
 
-def read_book():
-    pass
-
-def remove_book():
+def remove_book(title):
     pass
 
 def list_all():
