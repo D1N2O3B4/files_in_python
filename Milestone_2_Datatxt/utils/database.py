@@ -16,7 +16,8 @@ def remove_book(title):
     pass
 
 def list_all():
-    pass
+    with open("data.txt","r") as file:
+        all_books = [line.strip for line in file.readlines()]
 
 def json_func():
     pass
